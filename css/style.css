@@ -332,8 +332,9 @@ h1 {
     color: white;
 }
 .html5 label {
-    background-color:rgb(22, 54, 22);
-    color: rgb(92, 182, 119);
+    background-color:rgb(88, 3, 3);
+    color: rgb(178, 247, 243);
+    margin-left: 1%;
 }
 .btn {
     border: 0;
