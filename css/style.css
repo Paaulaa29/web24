@@ -1,10 +1,13 @@
 body {
     margin: 0;
+    background-color: black;
 }
 
 * {
     box-sizing: border-box;
-    color: rgb(18, 0, 110);
+    color: rgb(238, 240, 240);
+    background-color: rgb(59, 63, 62);
+    
 }
 
 /* For desktop: */
@@ -101,7 +104,7 @@ body {
 }
 
 .shadow {
-    box-shadow: 0 0 20px gainsboro;
+    box-shadow: 0 0 20px rgba(220, 220, 220, 0.26);
     border-radius: 10px;
 }
 nav ul{
@@ -128,11 +131,16 @@ nav li {
 }
 
 nav li a {
-    color: rgb(18, 0, 110);
+    color: rgb(255, 255, 255);          /* COLOR DEL MENÚ */
 }
 
 nav li:hover {
-    background-color:  rgb(225, 245, 253);
+    background:  rgb(188, 195, 197);          /* HOVER DEL MENÚ */
+    border-radius: 15px;
+}   
+nav li:hover a{
+    color: black;
+    background:  rgb(188, 195, 197);
 }
 
 .text-right{
@@ -155,11 +163,11 @@ a {
     padding: 16px;
 }
 
-.bg-azul-o {
-    background-color: rgb(0 157 222);
+.bg-blanco {
+    background-color: rgb(150, 163, 162)
 }
 .bg-azul-c {
-    background-color: rgb(240, 249, 252);
+    background-color: rgb(54, 152, 190);
 }
 .bg-orange {
     background-color: orange;
@@ -171,6 +179,9 @@ a {
     color: red;
     font-size: 30px;
     background-color: cyan;
+}
+.text-black {
+    color: rgba(35, 37, 37, 0.836);
 }
 footer h1 {
     border-bottom-left-radius: 10px;
