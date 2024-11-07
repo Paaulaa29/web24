@@ -322,7 +322,11 @@ h1 {
 }
 #tablas .horario th em{
     color: rgb(12, 119, 117);
+    background: white;
     font-size: 150%;
+}
+#tablas .horario tr th{
+   background-color: white;
 }
 .formlogin {
     float: left;
@@ -378,4 +382,7 @@ audio{
 .img-center {
     display: block;
     margin: 0 auto;
+}
+.blanco {
+    background-color: white;
 }
