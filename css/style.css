@@ -342,15 +342,15 @@ h1 {
 .html5 {
     width: 50%;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: rgb(92, 112, 105);
 }
 .html5 legend {
-    background-color: rgb(22, 22, 102);
+    background-color: rgb(93, 93, 102);
     color: white;
 }
 .html5 label {
-    background-color:rgb(88, 3, 3);
-    color: rgb(178, 247, 243);
+    background-color:rgb(46, 46, 46);
+    color: rgb(255, 255, 255);
     margin-left: 1%;
 }
 .btn {
