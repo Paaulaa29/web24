@@ -226,7 +226,17 @@ h1 {
     font-weight: bold;
 }
 #enlaces a{
-    color: rgb(156, 156, 192);
+    color: rgb(94, 118, 163);
+    text-decoration: underline;
+    font-size: 24px;
+}
+#enlaces a:visited{
+    color: rgb(172, 172, 202);
+    text-decoration: underline;
+    font-size: 24px;
+}
+#enlaces a:hover{
+    color: rgb(218, 233, 155);
     text-decoration: underline;
     font-size: 24px;
 }
